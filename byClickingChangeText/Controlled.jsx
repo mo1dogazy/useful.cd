@@ -1,4 +1,5 @@
 import { useState } from "react";
+// Here is path to your style
 import "../App.css";
 function Controlled() {
   const [name, setName] = useState("");
