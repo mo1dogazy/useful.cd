@@ -12,7 +12,7 @@ function UseStateNice() {
   return (
     <div className="all">
       <h1>{greeting.greet}</h1>
-      <button onClick={updateGreeting}>Update greeting</button>
+      <button onClick={updateGreeting}>Updated greeting</button>
     </div>
   );
 }
